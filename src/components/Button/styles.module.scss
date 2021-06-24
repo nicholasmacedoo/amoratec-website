@@ -1,0 +1,17 @@
+.container {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-blue-500);
+    color: var(--color-white);
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    transition: filter .2s;
+
+    &:hover {
+        filter: brightness(.8);
+    }
+}

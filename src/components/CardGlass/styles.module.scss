@@ -1,0 +1,31 @@
+
+.container {
+    padding: 2rem 3rem;
+    border-radius: 1.25rem;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    
+    .header {
+        margin-bottom: 2rem;
+        
+        .icon {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, #DD81FF 0%, #2D7EFA 100%);
+            border-radius: 20px;
+            filter: drop-shadow(8px 8px 32px rgba(0, 0, 0, 0.22));
+            margin-bottom: 1rem;
+        }
+        
+        strong {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}

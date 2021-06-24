@@ -1,0 +1,28 @@
+.container {
+    height: 56px;
+    width: 100%;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+    display: flex;
+    border-radius: 10px;
+    padding: 0 1rem;
+    transition: border-color .2s;
+
+    input {
+        flex: 1;
+        border: 0;
+        background: transparent;
+        color: var(--color-white);
+
+        &::placeholder{
+            color: rgba(255, 255, 255, 0.3);
+        }
+    }
+
+    &.isFocused {
+        border-color: var(--color-blue-500);
+        box-shadow: 0 0 0 0.2rem rgb(45 126 250 / 25%);
+    }
+}
