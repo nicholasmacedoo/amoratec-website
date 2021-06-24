@@ -276,6 +276,8 @@
       align-items: center;
       position: relative;
       div {
+        position: relative;
+        flex: 1;
         strong {
           font-size: 1.75rem;
           font-weight: 400;
@@ -295,7 +297,7 @@
 
     @media (max-width: 475px) {
       padding: 0 2rem;
-      
+
       article {
         width: 100%;
         gap: 0;
@@ -314,7 +316,7 @@
       article {
         grid-template-columns: 1fr;
 
-        svg {
+        img {
           opacity: 0.5;
         }
         .description {
