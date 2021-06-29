@@ -21,7 +21,7 @@
 }
 
 body {
-  background: var(--color-black);
+  background-color: var(--color-black);
   color: var(--color-white);
   -webkit-font-smoothing: antialiased;
   position: relative;
@@ -55,6 +55,7 @@ body {
 }
 
 html {
+  overflow-x: hidden;
   @media (max-width: 1080px) {
       font-size: 93.75%; // 15px
   }
